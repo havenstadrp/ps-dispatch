@@ -235,7 +235,7 @@ local function IFruitStoreRobbery()
             y = currentPos.y,
             z = currentPos.z
         },
-        dispatchMessage = _U('ifruitstorerobbery'), -- message
+        dispatchMessage = "iFruit Store Robbery", -- message
         job = {"police"} -- jobs that will get the alerts
     })
 end exports('IFruitStoreRobbery', IFruitStoreRobbery)
