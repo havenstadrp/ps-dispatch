@@ -33,7 +33,6 @@ Locales = {
         ['autotheft'] = "Theft of a motor vehicle",
         ['persondown'] = "Person is injured",
         ['storerobbery'] = "Store Robbery",
-        ['ifruitstorerobbery'] = "iFruit Store Robbery",
         ['fleecabank'] = "Fleeca Bank Robbery",
         ['paletobank'] = "Paleto Bank Robbery",
         ['pacificbank'] = "Pacific Bank Robbery",
@@ -54,6 +53,12 @@ Locales = {
         ['unionrobbery'] = "Union Depository Robbery",
         ['carboosting'] = "Car Boosting In Progress",
         ['yachtheist'] = "Yacht Heist In Progress",
+
+        -- Dispatch messages for iFruit Store (english)
+
+        ['ifruitstorerobbery'] = "iFruit Store Robbery",
+        ['poweroutage'] = "Power Outage at iFruit Store",
+        ['powerboxexplosion'] = "Explosion at iFruit Store",
     },
 
     ['fr'] = {
@@ -155,7 +160,6 @@ Locales = {
         ['autotheft'] = "Diefstal van een motorvoertuig",
         ['persondown'] = "Persoon is gewond",
         ['storerobbery'] = "Winkeloverval",
-        ['ifruitstorerobbery'] = "Winkeloverval in iFruit Store",
         ['fleecabank'] = "Fleeca Bank Overval",
         ['paletobank'] = "Paleto Bank Overval",
         ['pacificbank'] = "Pacific Bank Overval",
@@ -176,5 +180,11 @@ Locales = {
         ['unionrobbery'] = "Union Depository Overval",
         ['carboosting'] = "Auto-boost aan de gang",
         ['yachtheist'] = "Jachtoverval in uitvoering",
+
+        -- Dispatch messages for iFruit Store (dutch)
+
+        ['ifruitstorerobbery'] = "Winkeloverval in iFruit Store",
+        ['poweroutage'] = "Stroomuitval in iFruit Store",
+        ['powerboxexplosion'] = "Ontploffing bij iFruit Store",
     },
 }

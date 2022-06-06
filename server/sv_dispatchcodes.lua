@@ -26,7 +26,6 @@ dispatchCodes = {
 	["officerdown"] = { displayCode = '10-99', description = "Officer Down", radius = 15.0, recipientList = { 'police' }, blipSprite = 526, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "panicbutton", offset = "false" },
 	["emsdown"] = { displayCode = '10-99', description = "EMS Down", radius = 15.0, recipientList = { 'police', 'ambulance' }, blipSprite = 526, blipColour = 3, blipScale = 1.5, blipLength = 2, sound = "panicbutton", offset = "false" },
 	["storerobbery"] = { displayCode = '10-90', description = "Store Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false" },
-	["ifruitstorerobbery"] = { displayCode = '10-90', description = "iFruit Store Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
 	["bankrobbery"] = { displayCode = '10-90', description = "Fleeca Bank Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 500, blipColour = 2, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false" },
 	["paletobankrobbery"] = { displayCode = '10-90', description = "Paleto Bank Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 500, blipColour = 12, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false" },
 	["pacificbankrobbery"] = { displayCode = '10-90', description = "Pacific Bank Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 500, blipColour = 5, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false" },
@@ -37,6 +36,12 @@ dispatchCodes = {
 	["yachtheist"] = { displayCode = '10-65', description = "Yacht Heist In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 455, blipColour = 60, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false" },
 	["vehicletheft"] = { displayCode = '10-35', description = "Car Theft In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 595, blipColour = 60, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false" },
 
+	-- Dispatch messages for iFruit Store
+
+	["ifruitstorerobbery"] = { displayCode = '10-90', description = "iFruit Store Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
+	["poweroutage"] = { displayCode = '10-90A', description = "Power Outage at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
+	["powerboxexplosion"] = { displayCode = '10-80', description = "Explosion at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 436, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false"},
+	
 	-- Rainmad Heists
 
 	["artgalleryrobbery"] = { displayCode = '10-90', description = "Art Gallery Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 269, blipColour = 59, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false" },
