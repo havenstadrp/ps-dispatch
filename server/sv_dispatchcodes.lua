@@ -38,9 +38,9 @@ dispatchCodes = {
 
 	-- Dispatch messages for iFruit Store
 
-	["ifruitstorerobbery"] = { displayCode = '10-90', description = "iFruit Store Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
-	["poweroutage"] = { displayCode = '10-90A', description = "Power Outage at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
-	["powerboxexplosion"] = { displayCode = '10-80', description = "Explosion at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 436, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false"},
+	["ifruitstorerobbery"] = { displayCode = '10-90A', description = "iFruit Store Robbery In Progress", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
+	["poweroutage"] = { displayCode = '10-90B', description = "Power Outage at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 52, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "robberysound", offset = "false"},
+	["powerboxexplosion"] = { displayCode = '10-90C', description = "Explosion at iFruit Store", radius = 0, recipientList = { 'police' }, blipSprite = 436, blipColour = 1, blipScale = 1.5, blipLength = 2, sound = "Lose_1st", sound2 = "GTAO_FM_Events_Soundset", offset = "false"},
 	
 	-- Rainmad Heists
 

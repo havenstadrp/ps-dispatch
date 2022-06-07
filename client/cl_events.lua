@@ -528,7 +528,7 @@ local function IFruitStoreRobbery()
     local gender = GetPedGender()
     TriggerServerEvent("dispatch:server:notify", {
         dispatchcodename = "ifruitstorerobbery", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
-        dispatchCode = "10-90",
+        dispatchCode = "10-90A",
         firstStreet = locationInfo,
         gender = gender,
         model = nil,
@@ -552,7 +552,7 @@ local function PowerOutage()
     local gender = GetPedGender()
     TriggerServerEvent("dispatch:server:notify", {
         dispatchcodename = "poweroutage", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
-        dispatchCode = "10-90A",
+        dispatchCode = "10-90B",
         firstStreet = locationInfo,
         gender = gender,
         model = nil,
@@ -576,7 +576,7 @@ local function PowerBoxExplosion()
     local gender = GetPedGender()
     TriggerServerEvent("dispatch:server:notify", {
         dispatchcodename = "powerboxexplosion", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
-        dispatchCode = "10-90A",
+        dispatchCode = "10-90C",
         firstStreet = locationInfo,
         gender = gender,
         model = nil,
