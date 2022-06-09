@@ -59,6 +59,7 @@ Locales = {
         ['ifruitstorerobbery'] = "iFruit Store Robbery",
         ['poweroutage'] = "Power Outage at iFruit Store",
         ['powerboxexplosion'] = "Explosion at iFruit Store",
+        ['susactivity'] = "Suspicious Activity",
     },
 
     ['fr'] = {
